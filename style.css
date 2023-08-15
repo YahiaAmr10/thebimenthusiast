@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(114, 174, 145)
+}
+.container {
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Currt {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+}
+.Timeer {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+}
+.classes {
+    color: white;
+    font-size: 150px;
+    text-align:center;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: dashed;
+    padding: 18px 20px;
+}
+.seconds {
+    font-size: 150px;
+    font-display: fallback;
+    color: rgb(255, 0, 0);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: dotted;
+
+}
