@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="bt.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Flex:opsz,wght@8..144,500&display=swap" rel="stylesheet">
+    <style>
+
+        /********** Base styles **********/
+
+
+        /* Simple Responsive Framework. */
+        .row {
+            width: 100%;
+        }
+
+        /********** Large devices only **********/
+        @media (min-width:1200px) {
+            .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+                float: left;
+                border: 1px solid green;
+            }
+
+            .col-lg-1 {
+                width: 8.33%;
+            }
+
+            .col-lg-2 {
+                width: 16.66%;
+            }
+
+            .col-lg-3 {
+                width: 25%;
+            }
+
+            .col-lg-4 {
+                width: 33.33%;
+            }
+
+            .col-lg-5 {
+                width: 41.66%;
+            }
+
+            .col-lg-6 {
+                width: 50%;
+            }
+
+            .col-lg-7 {
+                width: 58.33%;
+            }
+
+            .col-lg-8 {
+                width: 66.66%;
+            }
+
+            .col-lg-9 {
+                width: 74.99%;
+            }
+
+            .col-lg-10 {
+                width: 83.33%;
+            }
+
+            .col-lg-11 {
+                width: 91.66%;
+            }
+
+            .col-lg-12 {
+                width: 100%;
+            }
+            .navbar-brand {
+                align-content: center;
+                align-items: center;
+            }
+        }
+
+        /********** Medium devices only **********/
+        @media (min-width: 690px) and (max-width:1199px) {
+            .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+                float: left;
+                border: 1px solid green;
+            }
+
+            .col-md-1 {
+                width: 8.33%;
+            }
+
+            .col-md-2 {
+                width: 16.66%;
+            }
+
+            .col-md-3 {
+                width: 25%;
+            }
+
+            .col-md-4 {
+                width: 33.33%;
+            }
+
+            .col-md-5 {
+                width: 41.66%;
+            }
+
+            .col-md-6 {
+                width: 50%;
+            }
+
+            .col-md-7 {
+                width: 58.33%;
+            }
+
+            .col-md-8 {
+                width: 66.66%;
+            }
+
+            .col-md-9 {
+                width: 74.99%;
+            }
+
+            .col-md-10 {
+                width: 83.33%;
+            }
+
+            .col-md-11 {
+                width: 91.66%;
+            }
+
+            .col-md-12 {
+                width: 100%;
+            }
+            .navbar-brand {
+                align-content: center;
+                align-items: center;
+            }
+        }
+    </style>
+  
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>BuilTech</h1></a>
+                        <style>
+                            .navbar-brand {
+                                align-content: center;
+                                align-items: center;
+                            }
+                        </style>
+
+
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <style>
+                        h1 {
+                            float:left;
+                        }
+                        #header-nav {
+
+                            background-color: black;
+                            border-radius: 0;
+                            border: 0;
+                            color: white;
+                            height: 5vh;
+                            width: 100%;
+                            align-items: center;
+                            justify-content: center;
+                            margin-bottom: 25px;
+                        }
+                    </style>
+                </div>
+            </div>
+        </nav>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="menu-categories.html">
+                        <span class="glyphicon glyphicon-hand-down"></span><br class="hidden-xs"> Menu
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon icon1" src"></span><br class="hidden-xs"> About
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards
+                    </a>
+                </li>
+                <li id="phone" class="hidden-xs">
+                    <a href="tel:410-602-5008">
+                        <span>410-602-5008</span>
+                    </a><div>* We Deliver</div>
+                </li>
+                <style align-content: center></style>
+            </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+    </header>
+    <h2></h2>
+    <style>
+        h2 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+    <div class="row">
+        <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
+        <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
+        <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+        <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
+        <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
+        <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
+        <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
+        <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+    </div>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="jquery-3.7.0.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

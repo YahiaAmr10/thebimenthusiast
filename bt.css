@@ -1,0 +1,653 @@
+body {
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+/********** Base styles **********/
+
+.extend {
+    background-color: black;
+    border:solid black;
+    border-radius: 15px;
+    display: none;
+}
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+}
+h3 {
+    font-size: 60px;
+    color: white;
+    height: 5vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header {
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    list-style: none;
+    font-display: auto;
+    margin: 10px;
+}
+
+.list-items:hover {
+    font-size: 24px;
+    transition: 0.2s;
+}
+
+.icon1 {
+    background: url(header-gulf-birds.jpg) no-repeat;
+}
+
+h2 {
+    background-color: white;
+    height: 0.1vh;
+}
+
+h3 > p {
+    text-align: center;
+    margin-top: 0;
+    font-size: 18px
+}
+
+.li {
+    align-content: center;
+    color: white;
+}
+#mySearch {
+    float: right;
+    border: 1px solid #ddd;
+    color: black;
+}
+a {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+a #mySearch {
+    display: inline-block;
+}
+h4 {
+    clear: both;
+    position: relative;
+    width: 100%;
+    visibility: hidden;
+    font-size: 9px;
+}
+h5 {
+    background-color: white;
+    height: 0.1px;
+    width: 100%;
+}
+h9 {
+    text-align: center;
+    align-content: center;
+    width: 100%:
+}
+
+/********** Large devices only **********/
+
+/********** Medium devices only **********/
+
+@media (min-width: 1480px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        box-sizing: border-box;
+        float: left;
+        border: 2px solid white;
+        background-image: src(header-gulf-birds.jpg);
+        background-size: 300px;
+        enable-background: initial;
+        height: 300px;
+        border-radius: 25px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.2s;
+    }
+
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 25%;
+        background-image: src(9.png);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-size: 100px;
+        enable-background: initial;
+        align-content: space-between;
+        padding: 10px;
+        background-position: center;
+        background-origin: border-box;
+    }
+
+        .col-md-6 > p {
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            left: 10px;
+            font-size: 20px;
+            bottom: 50px;
+            margin: auto;
+            margin-top: 170px;
+        }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 74.99%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        align-content: center;
+        align-items: center;
+    }
+
+
+
+    .col-md-6 {
+        width: 25%;
+        background-image: url(9.png);
+        background-size: 100px;
+        enable-background: initial;
+    }
+
+        .col-md-6 > h6 {
+            text-align: justify justify-all;
+            text-align: center;
+            justify-content: center;
+            font-size: 50px;
+            top: 10px;
+            margin: 0;
+            font-size: 13px;
+        }
+
+        .col-md-6:hover {
+            width: 25%;
+            background-image: url(Capture.PNG);
+            background-size: cover;
+            background-color: rgba(270,270,270,0.7);
+            enable-background: initial;
+            font-size: 50px;
+            transition: 0.1s;
+            visibility: visible;
+        }
+
+        .col-md-6 > img {
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .col-md-6:hover > img {
+            background-color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 100px;
+            height: 100px;
+            float: right;
+            right: 100px;
+            top: 30px;
+            margin: 10px;
+            margin-top: 30px;
+            visibility: visible;
+        }
+
+        .col-md-6:hover > p {
+            text-align: center;
+            background-color: black;
+            enable-background: initial;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top: 0px;
+            font-size: 30px;
+            transition: 0.2s;
+            visibility: visible;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .col-md-6:hover > h6 {
+            background-color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 50%;
+            text-align: justify justify-all;
+            text-align: center;
+            justify-content: center;
+            font-size: 15px;
+            margin-top: 30px;
+            transition: 0.2s;
+            visibility: visible;
+            height: 100px;
+            font-size: 1.5vh;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 100;
+            overflow: auto;
+            scrollbar-color: blue;
+        }
+
+        .col-md-6 > h8 {
+            text-align: center;
+            top: 30px;
+            font-size: 33px;
+            background-color: rgb(255 106 0);
+            visibility: hidden;
+            border: solid;
+            border-radius: 5px;
+            border-color: rgb(255,106,0);
+        }
+
+        .col-md-6:hover > h8 {
+            visibility: visible;
+            top: 10px;
+            font-size: 33px;
+            text-align: center;
+            background-color: rgb(255 106 0);
+        }
+
+}
+@media (min-width: 850px) and (max-width: 1479px) {
+    .list2{
+        display: none;
+    }
+    .col-lg-3 {
+        box-sizing: border-box;
+        float: left;
+        border: 2px solid white;
+        background-image: src(header-gulf-birds.jpg);
+        background-size: 300px;
+        enable-background: initial;
+        height: 300px;
+        border-radius: 25px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.2s;
+    }
+
+    .col-lg-3 {
+        width: 50%;
+        background-image: src(9.png);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-size: 100px;
+        enable-background: initial;
+        align-content: space-between;
+        padding: 10px;
+        background-position: center;
+        background-origin: border-box;
+    }
+    .col-lg-3 > p {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        left: 10px;
+        font-size: 20px;
+        bottom: 50px;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+
+    .col-lg-3 {
+        width: 50%;
+        background-image: url(9.png);
+        background-size: 100px;
+        enable-background: initial;
+    }
+
+        .col-lg-3 > h6 {
+            text-align: justify justify-all;
+            text-align: center;
+            justify-content: center;
+            font-size: 50px;
+            top: 10px;
+            margin: 0;
+            font-size: 13px;
+        }
+
+        .col-lg-3:hover {
+            width: 50%;
+            background-image: url(Capture.PNG);
+            background-size: cover;
+            background-color: rgba(270,270,270,0.7);
+            enable-background: initial;
+            font-size: 50px;
+            transition: 0.1s;
+            visibility: visible;
+        }
+        .col-lg-3:hover::after {
+            width: 50%;
+            background-image: url(Capture.PNG);
+            background-size: cover;
+            background-color: rgba(270,270,270,0.7);
+            enable-background: initial;
+            font-size: 50px;
+            transition: 0.1s;
+            visibility: visible;
+        }
+        .col-lg-3 > img {
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .col-lg-3:hover > img {
+            background-color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 100px;
+            height: 100px;
+            float: right;
+            right: 100px;
+            top: 30px;
+            margin: 10px;
+            margin-top: 30px;
+            visibility: visible;
+        }
+
+        .col-lg-3:hover > p {
+            text-align: center;
+            background-color: black;
+            enable-background: initial;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top: 0px;
+            font-size: 30px;
+            transition: 0.2s;
+            visibility: visible;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .col-lg-3:hover > h6 {
+            background-color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 50%;
+            text-align: justify justify-all;
+            text-align: center;
+            justify-content: center;
+            font-size: 15px;
+            margin-top: 30px;
+            transition: 0.2s;
+            visibility: visible;
+            height: 100px;
+            font-size: 1.5vh;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 100;
+            overflow: auto;
+            scrollbar-color: blue;
+        }
+
+        .col-lg-3 > h8 {
+            text-align: center;
+            top: 30px;
+            font-size: 33px;
+            background-color: rgb(255 106 0);
+            visibility: hidden;
+            border: solid;
+            border-radius: 5px;
+            border-color: rgb(255,106,0);
+        }
+
+        .col-lg-3:hover > h8 {
+            visibility: visible;
+            top: 10px;
+            font-size: 33px;
+            text-align: center;
+            background-color: rgb(255 106 0);
+        }
+}
+@media (max-width: 849px) {
+    a #mySearch {
+        display: inline-block;
+        float: right;
+    }
+    .list{
+        display: none;
+    }
+    .col-sm-3 {
+        box-sizing: border-box;
+        float: left;
+        border: 2px solid white;
+        background-image: src(header-gulf-birds.jpg);
+        background-size: 300px;
+        enable-background: initial;
+        height: 300px;
+        border-radius: 25px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.2s;
+    }
+
+    .col-sm-3 {
+        width: 100%;
+        background-image: src(9.png);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-size: 100px;
+        enable-background: initial;
+        align-content: space-between;
+        padding: 10px;
+        background-position: center;
+        background-origin: border-box;
+    }
+    .col-sm-3 > p {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        left: 10px;
+        font-size: 20px;
+        bottom: 50px;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+
+    .col-sm-3 {
+        width: 100%;
+        background-image: url(9.png);
+        background-size: 100px;
+        enable-background: initial;
+    }
+
+        .col-sm-3 > h6 {
+            text-align: justify justify-all;
+            text-align: center;
+            justify-content: center;
+            font-size: 50px;
+            top: 10px;
+            margin: 0;
+            font-size: 13px;
+        }
+
+        .col-sm-3:hover {
+            width: 100%;
+            background-image: url(Capture.PNG);
+            background-size: cover;
+            background-color: rgba(270,270,270,0.7);
+            enable-background: initial;
+            font-size: 50px;
+            transition: 0.1s;
+            visibility: visible;
+        }
+
+            .col-sm-3:hover::after {
+                width: 100%;
+                background-image: url(Capture.PNG);
+                background-size: cover;
+                background-color: rgba(270,270,270,0.7);
+                enable-background: initial;
+                font-size: 50px;
+                transition: 0.1s;
+                visibility: visible;
+            }
+
+        .col-sm-3 > img {
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .col-sm-3:hover > img {
+            background-color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 100px;
+            height: 100px;
+            float: right;
+            right: 100px;
+            top: 30px;
+            margin: 10px;
+            margin-top: 30px;
+            visibility: visible;
+        }
+
+        .col-sm-3:hover > p {
+            text-align: center;
+            background-color: black;
+            enable-background: initial;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top: 0px;
+            font-size: 30px;
+            transition: 0.2s;
+            visibility: visible;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .col-sm-3:hover > h6 {
+            background-color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 50%;
+            text-align: justify justify-all;
+            text-align: center;
+            justify-content: center;
+            font-size: 15px;
+            margin-top: 30px;
+            transition: 0.2s;
+            visibility: visible;
+            height: 100px;
+            font-size: 1.5vh;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 100;
+            overflow: auto;
+            scrollbar-color: blue;
+        }
+
+        .col-sm-3 > h8 {
+            text-align: center;
+            top: 30px;
+            font-size: 33px;
+            background-color: rgb(255 106 0);
+            visibility: hidden;
+            border: solid;
+            border-radius: 5px;
+            border-color: rgb(255,106,0);
+        }
+
+        .col-sm-3:hover > h8 {
+            visibility: visible;
+            top: 10px;
+            font-size: 33px;
+            text-align: center;
+            background-color: rgb(255 106 0);
+        }
+        .extend {
+            display: block;
+            transition: 0.2s;
+            float: right;
+            margin-top: -95px;
+
+        }
+        .extend .list{
+            display: inline-block;
+            
+        }
+    .list2 {
+        color: blue;
+        display: none;
+        display: 
+        justify-content: normal;
+        color: white;
+        font-size: 20px;
+        font-family: 'Alata', sans-serif;
+        font-family: 'Roboto Flex', sans-serif;
+        list-style: none;
+        font-display: auto;
+        margin: 10px;
+    }
+        .list-items{
+            color:aqua;
+        }
+    .extend:hover .list-items {
+        visibility: visible;
+        display: flex;
+        color: white;
+        font-size: 10px;
+        font-family: 'Alata', sans-serif;
+        font-family: 'Roboto Flex', sans-serif;
+        list-style: none;
+        font-display: auto;
+        margin: 10px;
+    }
+}
+

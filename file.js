@@ -13,6 +13,7 @@ var timer = document.querySelector('.Timeer')
 // var susu = window.prompt("Enter Hour")
 
 function datetime() {
+
     const d = new Date()
     let hours = d.getHours()
     let minutes = d.getMinutes()

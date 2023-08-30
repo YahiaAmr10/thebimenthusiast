@@ -26,12 +26,52 @@ body{
     text-align:center;
 }
 
+    .start_interval{
+        border: solid;
+        width: 99%;
+        float: right;
+    }
+
+.button_class) {
+    border: solid;
+    width: 25%;
+    float: left;
+    top: 20px;
+}
+
+.reset_interval {
+    border: solid;
+    width: 50%;
+    float: left;
+    top: 20px;
+}
+.stop_interval {
+    border: solid;
+    width: 100%;
+    float: left;
+    top: 20px;
+}
+
 button{
     background-color: black;
+    overflow:auto;
+    background-attachment: scroll;
     color: white;
     border: dashed;
     padding: 18px 20px;
+    box-sizing: border-box;
+    width: 400px;
 }
+    button:hover {
+        background-image: url(header-gulf-birds.jpg);
+        background-size: cover;
+        
+        color: red;
+        border: dashed;
+        padding: 18px 20px;
+        box-sizing: border-box;
+        width: 500px;
+    }
 .seconds {
     font-size: 150px;
     font-display: fallback;
@@ -41,4 +81,15 @@ button{
     text-align: center;
     border: dotted;
 
+}
+.listi li:hover {
+    list-style: upper-alpha;
+    color: aqua;
+    font-size: 25px;
+    border: dotted;
+}
+.listi li:active {
+    color: aqua;
+    font-size: 25px;
+    border: dotted;
 }
